@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
-
+// 不用加@Controller @ServletComponentScan 会自动扫描
 @Controller@WebServlet("/product")
 public class ProductServlet extends HttpServlet {
 
